@@ -31,10 +31,9 @@ imap <C-v>    <ESC> :vsplit <CR>
 imap ji       <ESC>
 
 
-
 " for codeforces rounds
-map <C-t>   :!./test <CR>
-imap <C-t>   <ESC> :!./test <CR>
+map <C-t>    :w! <CR> :!./test % <CR>
+imap <C-t>   <ESC> :w! <CR> :!./test % <CR>
 
 " windows navigation
 nnoremap <C-m> <C-w><C-w>
@@ -55,8 +54,6 @@ inoremap {		{}<Left>
 inoremap {<CR>  {<CR><Tab>}<ESC>i<Enter><Backspace><ESC>i<Up><Right><Right>
 inoremap {{ 	{
 inoremap {}     {}
-
-
 
 
 
