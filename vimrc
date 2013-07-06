@@ -8,7 +8,6 @@ set mouse=a
 
 syntax on
 colo molokai
-let g:molokai_original=1
 
 
 " shortcuts
@@ -58,6 +57,13 @@ inoremap {		{}<Left>
 inoremap {<CR>  {<CR><Tab>}<ESC>i<Enter><Backspace><ESC>i<Up><Right><Right>
 inoremap {{ 	{
 inoremap {}     {}
+
+
+" faster typing - just an experiment
+inoremap _G     if<Space>()<Space>{<CR><Tab>}<ESC>i<Enter><Backspace><ESC>i<Up><Right><Right><Up>
+inoremap _F    else<Space>if<Space>()<Space>{<CR><Tab>}<ESC>i<Enter><Backspace><ESC>i<Up><Right><Right><Up><Right><Right><Right><Right><Right><Right><Right>
+inoremap _D    else<Space>{<CR><Tab>}<ESC>i<Enter><Backspace><ESC>i<Up><Right><Right>
+inoremap _S     while<Space>()<Space>{<CR><Tab>}<ESC>i<Enter><Backspace><ESC>i<Up><Right><Right><Up><Right><Right><Right>
 
 
 " some special keys
