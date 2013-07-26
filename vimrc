@@ -5,9 +5,11 @@ set autoindent
 set tabstop=4
 set number
 set mouse=a
+set cursorline
+set whichwrap+=<,>,[,]
 
 syntax on
-colo molokai
+colo ambient
 
 
 " shortcuts
@@ -19,7 +21,7 @@ map <C-p>    :tabnext <CR>
 map <C-h>    :split <CR>
 map <C-v>    :vsplit <CR>
 imap <C-x>    <ESC> :wq! <CR>
-imap <C-d>    <ESC> :w! <CR>
+imap <C-d>    <ESC> :w! <CR>i
 imap <C-o>    <ESC> :tabprev <CR>
 imap <C-n>    <ESC> :tabnew <CR>
 imap <C-p>    <ESC> :tabnext <CR>
@@ -59,11 +61,11 @@ inoremap {{ 	{
 inoremap {}     {}
 
 
-" faster typing - just an experiment
-inoremap _G     if<Space>()<Space>{<CR><Tab>}<ESC>i<Enter><Backspace><ESC>i<Up><Right><Right><Up>
-inoremap _F    else<Space>if<Space>()<Space>{<CR><Tab>}<ESC>i<Enter><Backspace><ESC>i<Up><Right><Right><Up><Right><Right><Right><Right><Right><Right><Right>
-inoremap _D    else<Space>{<CR><Tab>}<ESC>i<Enter><Backspace><ESC>i<Up><Right><Right>
-inoremap _S     while<Space>()<Space>{<CR><Tab>}<ESC>i<Enter><Backspace><ESC>i<Up><Right><Right><Up><Right><Right><Right>
+" faster typing - just an experiment - failed :)
+" inoremap _G     if<Space>()<Space>{<CR><Tab>}<ESC>i<Enter><Backspace><ESC>i<Up><Right><Right><Up>
+" inoremap _F    else<Space>if<Space>()<Space>{<CR><Tab>}<ESC>i<Enter><Backspace><ESC>i<Up><Right><Right><Up><Right><Right><Right><Right><Right><Right><Right>
+" inoremap _D    else<Space>{<CR><Tab>}<ESC>i<Enter><Backspace><ESC>i<Up><Right><Right>
+" inoremap _S     while<Space>()<Space>{<CR><Tab>}<ESC>i<Enter><Backspace><ESC>i<Up><Right><Right><Up><Right><Right><Right>
 
 
 " some special keys
