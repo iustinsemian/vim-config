@@ -71,8 +71,8 @@ inoremap {}     {}
 " some special keys
 imap ,l <ESC>
 inoremap ,, //---------------------------------------------------------
-imap ,. <ESC> :!./copy % <Enter> <cr>
-imap ,/ <ESC> :!./add  % <Enter> <cr>
+imap ,. <ESC> :!./.copy % <Enter> <cr>
+imap ,/ <ESC> :!./.add  % <Enter> <cr>
 
 
 
