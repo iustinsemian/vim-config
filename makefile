@@ -2,11 +2,11 @@
 
 sudo apt-get install vim
 
-mkdir ~/.vim
-cp nerdtree.zip /.vim
+sudo mkdir ~/.vim
+sudo cp nerdtree.zip ~/.vim
 
 cd ~/.vim
-mkdir colors
+sudo mkdir colors
 
 unzip nerdtree
 
