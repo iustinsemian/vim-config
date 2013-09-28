@@ -1,4 +1,4 @@
 
-##Vim config files##
+### Vim config files ###
 
-*** Just run `makefile`
+#Just run `makefile`#
