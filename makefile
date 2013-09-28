@@ -4,11 +4,12 @@ sudo apt-get install vim
 
 sudo mkdir ~/.vim
 sudo cp nerdtree.zip ~/.vim
+sudo cp vimrc ~/.vimrc
 
 cd ~/.vim
 sudo mkdir colors
 
-unzip nerdtree
+sudo unzip nerdtree
 
 
 
