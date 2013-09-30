@@ -20,7 +20,7 @@ set guioptions-=L
 
 " set background
 set background=dark
-set guifont=Monospace\ 8
+set guifont=Monospace\ 7
 
 syntax on
 colo molokai
@@ -32,7 +32,8 @@ colo molokai
  map <C-p>          :tabnext <CR>
  map <C-h>          :split <CR>
  map <C-j>          :vsplit <CR>
-
+ 
+ imap <F8> <ESC> <cr>
 
 " windows navigation
 nnoremap <C-m> <C-w><C-w>
